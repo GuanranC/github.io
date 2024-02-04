@@ -1,0 +1,39 @@
+html{box-sizing:border-box;overflow-x:hidden}*,*:before,*:after{box-sizing:inherit}
+
+html,body,h3,h4,h5,h6{font-family:verdana;font-size:12px;line-height:1.5}
+
+h2{font-family: 'Times New Roman';font-size:34px}
+h3{font-size:18px}h4{font-size:18px}h5{font-size:18px; margin-bottom:0em}h6{font-size:16px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+ul{list-style: none;line-height: 2.5em; padding-left:0px}
+
+
+.box-light-grey{color:#000000!important;background-color:#f1f1f1!important}
+
+.margin-top{margin-top:16px!important}
+.margin-right{margin-right:5px!important}
+.margin-bottom{margin-bottom:16px!important}
+.grid-center{text-align:center!important}
+
+.content{margin-left:auto;margin-right:auto;max-width:980px}
+.content{background-color: rgb(250, 251, 241);}
+.container{padding:0.01em 16px}
+
+.card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.card-4{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.card{background-color: rgb(245, 250, 237);}
+.display-container{position:relative}
+
+.container:before,.container:after,.grid-padding:after,.grid-padding:before{content:"";display:table;clear:both}
+.grid-padding,.grid-padding>.grid-half,.grid-padding>.grid-third,.grid-padding>.grid-twothird,.grid-padding>.grid-threequarter,.grid-padding>.grid-quarter,.grid-padding>.grid-col{padding:0 8px}
+.grid-third, .grid-twothird{float:left;width:100%}
+
+footer{color: #0572f7}
+
+.col,.grid-half,.grid-third,.grid-twothird,.grid-threequarter,.grid-quarter{float:left;width:100%}
+.col.s1{width:8.33333%}.col.s2{width:16.66666%}.col.s3{width:24.99999%}.col.s4{width:33.33333%}
+.col.s5{width:41.66666%}.col.s6{width:49.99999%}.col.s7{width:58.33333%}.col.s8{width:66.66666%}
+.col.s9{width:74.99999%}.col.s10{width:83.33333%}.col.s11{width:91.66666%}.col.s12{width:99.99999%}
+@media (min-width:601px){.col.m1{width:8.33333%}.col.m2{width:16.66666%}.col.m3,.grid-quarter{width:24.99999%}.col.m4,.grid-third{width:33.33333%}
+.col.m5{width:41.66666%}.col.m6,.grid-half{width:49.99999%}.col.m7{width:58.33333%}.col.m8,.grid-twothird{width:66.66666%}
+.col.m9,.grid-threequarter{width:74.99999%}.col.m10{width:83.33333%}.col.m11{width:91.66666%}.col.m12{width:99.99999%}}
